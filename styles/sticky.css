@@ -1,0 +1,14 @@
+/* basic positioning */
+.navbar { list-style: none; }
+.navbar li { float: left; margin-right: 10px; }
+.navbar span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.navbar .rowing { background-color: #DF3C3C; }
+.navbar .physicaltherapy { background-color: #7FC97F; }
+.navbar .spaulding { background-color: #FFF990; }
+.navbar .meeting { background-color: #868686; }
+.navbar .sailing { background-color: #39A1F3; }
+.navbar .community { background-color: #FE843F; }
+.navbar .family { background-color: #F5A8D4; }
+.navbar .doctorsappointment { background-color: #A64F13; }
+.navbar .vacation { background-color: #8E4FE1; }

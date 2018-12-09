@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body {
+	padding: 25px;
+}
+
+label {
+	text-align: left;
+    font-family: "Roboto Slab";
+    padding-bottom: -10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 45px;
+    font-style: bold;
+    letter-spacing: 2px;
+}
+
+select {
+	padding: 25px;
+}
+
+input {
+	padding: 10px;
+	border-radius: 8px;
+    display: block;
+}
+
+
+input[type=text] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+input[type=time] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+input[type=date] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+div {
+	width: 100%;
+}
+
+div.input-field{
+	padding-left: 35px;
+	padding-bottom: 15px;
+}
+
+div#dropdown-row.row{
+}
+
+ul li a { 
+	font-family: "Roboto Slab";
+	font-size: 45px;
+}
+
+#addevent-link{
+	padding-bottom: 30px;
+    font-weight: bold;
+
+}
+
+#backCal{
+	text-align: left;
+    font-family: "Roboto Slab";
+    padding-left: 30px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #39A1F3;
+}
+
+#backArrow {
+    color: #39A1F3;
+	padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+
+#button {
+	padding-left: 40px;
+	padding-top: 30px;
+    border-radius: 5px;
+}
+
+#subButton {
+	background-color: #7FC97F; 
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#Type, #Duration, #Month, #Day, #min, #hr {
+	font-family: Roboto;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding-left: 40px;
+}
+
+div#Type.wrapper-dropdown-3{
+	padding-left: 30px;
+}
+
+div.col-md-6 {
+    padding-left: 0px;
+}
+
+input[type=number] {
+    background-color: #39A1F3; 
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    padding: 0 15px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    color: transparent;
+    width: 60px;
+    text-align:center;
+    position:relative;
+}    
+input[type=number]::-webkit-inner-spin-button { 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sort_both_small.svg/107px-Sort_both_small.svg.png') no-repeat 50% 50%;  
+    background-size: 60px 70px;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+}
+
+input[type=time] {
+    height: 100px;
+}
+
+input[type=time]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    color: transparent;
+    width: 60px;
+    text-align:center;
+    position:relative;
+}    
+input[type=time]::-webkit-inner-spin-button { 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sort_both_small.svg/107px-Sort_both_small.svg.png') no-repeat 50% 50%;  
+    background-size: 60px 70px;
+    width: 100px;
+    height: 80px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+}
+
+input[type=date] {
+    height: 100px;
+}
+
+input[type=date]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    color: transparent;
+    width: 60px;
+    text-align:center;
+    position:relative;
+}    
+input[type=date]::-webkit-inner-spin-button { 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sort_both_small.svg/107px-Sort_both_small.svg.png') no-repeat 50% 50%;  
+    background-size: 60px 70px;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    right: 2px;
+}
