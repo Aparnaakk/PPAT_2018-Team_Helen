@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Files -->
+     
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style3.css"/>
+
+    <title>Team Helen!</title>
+  </head>
+
+
+  <body>
+   <!--<div class="header" id="CalHead">-->
+    <div id="CalHead" >
+      <div class="row">
+      <div class="col-md-10"><h1 id="monthHeader"></h1></div>
+      <div class="col-md-2" id="addevent-link"><a href="addevent.html"> <i id="plus" class="fas fa-plus"></i></a></div>
+    </div>
+    </div>
+        <table class="table table-bordered" style="display:block;">
+          <thead >
+            <tr>
+             <th style="width: 107px"></th>
+              <th style="width: 13%">S</th>
+              <th style="width: 13%">M</th>
+              <th style="width: 13%">T</th>
+              <th style="width: 13%">W</th>
+              <th style="width: 13%">Th</th>
+              <th style="width: 13%">F</th>
+              <th style="width: 13%">S</th>
+              <th style="width: 4.5%"></th>
+            </tr>
+            <tr>
+              <th class="date-row" style="width: 107px""><button id="arrow1" class="fas fa-arrow-left"></button></th>
+              <th class="date-row" style="width: 13%" "line-height: 0"><div id = "day1" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day2" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day3" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day4" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day5" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day6" class=""></div></th>
+              <th class="date-row" style="width: 13%"><div id = "day7" class=""></div></th>
+              <th class="date-row" style="width: 4.5%"><button id="arrow2" class="fas fa-arrow-right"></button></th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="row-7">
+              <td id="time-7" class="time" style="width: 10.5%">7</td>
+              <td id="7-SUN"></td>
+              <td id="7-M"></td>
+              <td id="7-T"></td>
+              <td id="7-W"></td>
+              <td id="7-Th"></td>
+              <td id="7-F"></td>
+              <td id="7-SAT"></td>
+            </tr>
+           <tr id="row-75">
+              <td id="time-75" class="time" style="width: 10.5%"></td>
+              <td id="75-SUN"></td>
+              <td id="75-M"></td>
+              <td id="75-T"></td>
+              <td id="75-W"></td>
+              <td id="75-Th"></td>
+              <td id="75-F"></td>
+              <td id="75-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-8" class="time" style="width: 10.5%">8</td>
+              <td id="8-SUN"></td>
+              <td id="8-M"></td>
+              <td id="8-T"></td>
+              <td id="8-W"></td>
+              <td id="8-Th"></td>
+              <td id="8-F"></td>
+              <td id="8-SAT"></td>
+            </tr>
+            <tr id="row-85">
+              <td id="time-85" class="time" style="width: 10.5%"></td>
+              <td id="85-SUN"></td>
+              <td id="85-M"></td>
+              <td id="85-T"></td>
+              <td id="85-W"></td>
+              <td id="85-Th"></td>
+              <td id="85-F"></td>
+              <td id="85-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-9" class="time" style="width: 10.5%">9</td>
+              <td id="9-SUN"></td>
+              <td id="9-M"></td>
+              <td id="9-T"></td>
+              <td id="9-W"></td>
+              <td id="9-Th"></td>
+              <td id="9-F"></td>
+              <td id="9-SAT"></td>
+            </tr>
+            <tr id="row-95">
+              <td id="time-95" class="time" style="width: 10.5%"></td>
+              <td id="95-SUN"></td>
+              <td id="95-M"></td>
+              <td id="95-T"></td>
+              <td id="95-W"></td>
+              <td id="95-Th"></td>
+              <td id="95-F"></td>
+              <td id="95-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-10" class="time" style="width: 10.5%">10</td>
+              <td id="10-SUN"></td>
+              <td id="10-M"></td>
+              <td id="10-T"></td>
+              <td id="10-W"></td>
+              <td id="10-Th"></td>
+              <td id="10-F"></td>
+              <td id="10-SAT"></td>
+            </tr>
+            <tr id="row-105">
+              <td id="time-105" class="time" style="width: 10.5%"></td>
+              <td id="105-SUN"></td>
+              <td id="105-M"></td>
+              <td id="105-T"></td>
+              <td id="105-W"></td>
+              <td id="105-Th"></td>
+              <td id="105-F"></td>
+              <td id="105-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-11" class="time" style="width: 10.5%">11</td>
+              <td id="11-SUN"></td>
+              <td id="11-M"></td>
+              <td id="11-T"></td>
+              <td id="11-W"></td>
+              <td id="11-Th"></td>
+              <td id="11-F"></td>
+              <td id="11-SAT"></td>
+            </tr>
+            <tr id="row-115">
+              <td id="time-115" class="time" style="width: 10.5%"></td>
+              <td id="115-SUN"></td>
+              <td id="115-M"></td>
+              <td id="115-T"></td>
+              <td id="115-W"></td>
+              <td id="115-Th"></td>
+              <td id="115-F"></td>
+              <td id="115-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-12" class="time" style="width: 10.5%">12</td>
+              <td id="12-SUN"></td>
+              <td id="12-M"></td>
+              <td id="12-T"></td>
+              <td id="12-W"></td>
+              <td id="12-Th"></td>
+              <td id="12-F"></td>
+              <td id="12-SAT"></td>
+            </tr>
+            <tr id="row-125">
+              <td id="time-125" class="time" style="width: 10.5%"></td>
+              <td id="125-SUN"></td>
+              <td id="125-M"></td>
+              <td id="125-T"></td>
+              <td id="125-W"></td>
+              <td id="125-Th"></td>
+              <td id="125-F"></td>
+              <td id="125-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-1" class="time" style="width: 10.5%">1</td>
+              <td id="13-SUN"></td>
+              <td id="13-M"></td>
+              <td id="13-T"></td>
+              <td id="13-W"></td>
+              <td id="13-Th"></td>
+              <td id="13-F"></td>
+              <td id="13-SAT"></td>
+            </tr>
+            <tr id="row-135">
+              <td id="time-135" class="time" style="width: 10.5%"></td>
+              <td id="135-SUN"></td>
+              <td id="135-M"></td>
+              <td id="135-T"></td>
+              <td id="135-W"></td>
+              <td id="135-Th"></td>
+              <td id="135-F"></td>
+              <td id="135-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-2" class="time" style="width: 10.5%">2</td>
+              <td id="14-SUN"></td>
+              <td id="14-M"></td>
+              <td id="14-T"></td>
+              <td id="14-W"></td>
+              <td id="14-Th"></td>
+              <td id="14-F"></td>
+              <td id="14-SAT"></td>
+            </tr>
+            <tr id="row-145">
+              <td id="time-145" class="time" style="width: 10.5%"></td>
+              <td id="145-SUN"></td>
+              <td id="145-M"></td>
+              <td id="145-T"></td>
+              <td id="145-W"></td>
+              <td id="145-Th"></td>
+              <td id="145-F"></td>
+              <td id="145-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-3" class="time" style="width: 10.5%">3</td>
+              <td id="15-SUN"></td>
+              <td id="15-M"></td>
+              <td id="15-T"></td>
+              <td id="15-W"></td>
+              <td id="15-Th"></td>
+              <td id="15-F"></td>
+              <td id="15-SAT"></td>
+            </tr>
+            <tr id="row-155">
+              <td id="time-155" class="time" style="width: 10.5%"></td>
+              <td id="155-SUN"></td>
+              <td id="155-M"></td>
+              <td id="155-T"></td>
+              <td id="155-W"></td>
+              <td id="155-Th"></td>
+              <td id="155-F"></td>
+              <td id="155-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-4" class="time" style="width: 10.5%">4</td>
+              <td id="16-SUN"></td>
+              <td id="16-M"></td>
+              <td id="16-T"></td>
+              <td id="16-W"></td>
+              <td id="16-Th"></td>
+              <td id="16-F"></td>
+              <td id="16-SAT"></td>
+            </tr>
+            <tr id="row-165">
+              <td id="time-165" class="time" style="width: 10.5%"></td>
+              <td id="165-SUN"></td>
+              <td id="165-M"></td>
+              <td id="165-T"></td>
+              <td id="165-W"></td>
+              <td id="165-Th"></td>
+              <td id="165-F"></td>
+              <td id="165-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-5" class="time" style="width: 10.5%">5</td>
+              <td id="17-SUN"></td>
+              <td id="17-M"></td>
+              <td id="17-T"></td>
+              <td id="17-W"></td>
+              <td id="17-Th"></td>
+              <td id="17-F"></td>
+              <td id="17-SAT"></td>
+            </tr>
+            <tr id="row-175">
+              <td id="time-175" class="time" style="width: 10.5%"></td>
+              <td id="175-SUN"></td>
+              <td id="175-M"></td>
+              <td id="175-T"></td>
+              <td id="175-W"></td>
+              <td id="175-Th"></td>
+              <td id="175-F"></td>
+              <td id="175-SAT"></td>
+            </tr>
+            <tr>
+              <td id="time-6" class="time" style="width: 10.5%">6</td>
+              <td id="18-SUN"></td>
+              <td id="18-M"></td>
+              <td id="18-T"></td>
+              <td id="18-W"></td>
+              <td id="18-Th"></td>
+              <td id="18-F"></td>
+              <td id="18-SAT"></td>
+            </tr>
+            <tr id="row-185">
+              <td id="time-185" class="time" style="width: 10.5%"></td>
+              <td id="185-SUN"></td>
+              <td id="185-M"></td>
+              <td id="185-T"></td>
+              <td id="185-W"></td>
+              <td id="185-Th"></td>
+              <td id="185-F"></td>
+              <td id="185-SAT"></td>
+            </tr>
+            <tr>
+             <td  id="time-7P" class="time" style="width: 10.5%">7</td>
+              <td id="19-SUN"></td>
+              <td id="19-M"></td>
+              <td id="19-T"></td>
+              <td id="19-W"></td>
+              <td id="19-Th"></td>
+              <td id="19-F"></td>
+              <td id="19-SAT"></td>
+            </tr>
+            <tr id="row-195">
+              <td id="time-195" class="time" style="width: 10.5%"></td>
+              <td id="195-SUN"></td>
+              <td id="195-M"></td>
+              <td id="195-T"></td>
+              <td id="195-W"></td>
+              <td id="195-Th"></td>
+              <td id="195-F"></td>
+              <td id="195-SAT"></td>
+            </tr>
+              <td id="time-8P" class="time" style="width: 10.5%">8</td>
+              <td id="20-SUN"></td>
+              <td id="20-M"></td>
+              <td id="20-T"></td>
+              <td id="20-W"></td>
+              <td id="20-Th"></td>
+              <td id="20-F"></td>
+              <td id="20-SAT"></td>
+            </tr>
+            </tr>
+              <td id="time-205P" class="time" style="width: 10.5%"></td>
+              <td id="205-SUN"></td>
+              <td id="205-M"></td>
+              <td id="205-T"></td>
+              <td id="205-W"></td>
+              <td id="205-Th"></td>
+              <td id="205-F"></td>
+              <td id="205-SAT"></td>
+            </tr>
+          </tbody>
+        </table>
+
+$("#table table-bordered").on("click", "tr", function(e) {
+    console.log($(e.currentTarget).index() + 1);
+});
+                                   
+  <!--<div class="row">
+    <div id="button" style="text-align:right; padding-right:5em; padding-bottom:1em; padding-top:1em"><button id='signOutButton' class='btn btn-primary' type='button'>Sign Out</button></div>
+  </div> -->
+  <footer id="sticky">
+    <div class="stickbar"> 
+      <li><span class="rowing"></span> Rowing<br>
+      <span class="physicaltherapy"></span> PT</li>
+      <li><span class="spaulding"></span> Spaulding<br>
+      <span class="meeting"></span> Meeting</li>
+      <li><span class="sailing"></span> Sailing<br>
+      <span class="community"></span> Community</li>
+      <li><span class="family"></span> Family<br>
+      <span class="doctorsappointment"></span> Doctor</li>
+      <li><span class="vacation"></span> Vacation</li>
+    </div>
+   </footer>
+ </div>
+
+    <!-- vendor -->
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="js/vendor/aws-dynamodb-sdk.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.369.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- custom -->
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognitoAuth.js"></script>
+    <script src="js/createCalendar.js"></script>
+    console.log('Aparna')
+  </body>
+</html>
+
+
+
