@@ -16,7 +16,7 @@ https://owa.exchange.mit.edu/owa/redir.aspx?C=-GWqzNztvX_D8VL3BWEnavrf8VVLNFHMMP
 2. Register using your email
 3. Verify your email using the verification code sent to your email
 4. Sigin to your account
-5.. The calendar is now ready to use!
+5. The calendar is now ready to use!
 
 If you would like to customize/edit the app:
 
