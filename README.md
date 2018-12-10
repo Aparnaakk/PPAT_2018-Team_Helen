@@ -11,7 +11,8 @@ This is web calendar made for the Fall 2018 MIT PPAT Team Helen. It is a customi
 
 If you would just like to use the calendar app:
 
-1. Go to https://owa.exchange.mit.edu/owa/redir.aspx?C=-GWqzNztvX_D8VL3BWEnavrf8VVLNFHMMPBPebipyZ5-7wwLxV7WCA..&URL=http%3a%2f%2fhelen-calendar.s3-website-us-east-1.amazonaws.com%2fsignin.html
+1. Go to:
+https://owa.exchange.mit.edu/owa/redir.aspx?C=-GWqzNztvX_D8VL3BWEnavrf8VVLNFHMMPBPebipyZ5-7wwLxV7WCA..&URL=http%3a%2f%2fhelen-calendar.s3-website-us-east-1.amazonaws.com%2fsignin.html
 2. Register using your email
 3. Verify your email using the verification code sent to your email
 4. Sigin to your account
