@@ -12,10 +12,10 @@ This is web calendar made for the Fall 2018 MIT PPAT Team Helen. It is a customi
 If you would just like to use the calendar app:
 
 1. Go to:
-https://owa.exchange.mit.edu/owa/redir.aspx?C=-GWqzNztvX_D8VL3BWEnavrf8VVLNFHMMPBPebipyZ5-7wwLxV7WCA..&URL=http%3a%2f%2fhelen-calendar.s3-website-us-east-1.amazonaws.com%2fsignin.html
+http://helen-calendar.s3-website-us-east-1.amazonaws.com/signin.html
 2. Register using your email
 3. Verify your email using the verification code sent to your email
-4. Sigin to your account
+4. Sign in to your account
 5. The calendar is now ready to use!
 
 If you would like to customize/edit the app:
@@ -24,7 +24,7 @@ If you would like to customize/edit the app:
 2. Download the project file contents as a ZIP file then unzip it locally.
 3. Run the 'signup.html' file 
 4. Register to use the app through your email
-5. After registering, sign-in to your app using the details sent to your email through the ‘signin.html’ file again.
+5. After registering, sign in to your app using the details sent to your email through the ‘signin.html’ file again.
 6. The calendar is now ready to use and edit!
 
 7. Additionally, to link the locally downloaded web-app to an amazon s3 bucket, follow this tutorial : https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
