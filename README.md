@@ -28,5 +28,5 @@ This app consists of three main pages:
 2. Emma Stone
 3. Aparna Krishnakumar
 
-##Acknowledgement
+## Acknowledgement
 We would like to thank the entire PPAT team for their mentoring and support.
