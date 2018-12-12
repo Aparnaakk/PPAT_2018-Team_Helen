@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body {
+    margin: 5px;
+}
+
+h1 {
+    text-align: left;
+    font-family: "Roboto Slab";
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Roboto Slab";
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.table{
+    height: 100%;
+    margin-bottom: 160px;
+    margin-top: 100px;
+}
+tbody{
+    border-top: : 5px;
+    border-top-style: solid: 
+    border-top-color: : #386CB0;
+}
+
+th {
+    font-size: 40px;
+    font-family: "Roboto Slab";
+    text-align: left;
+} 
+
+td {
+    font-size: 25px;
+    font-family: "Roboto Slab";
+    letter-spacing: 1.5px;
+    vertical-align: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+tr{
+    background-color: white;
+}
+
+thead {
+    position: fixed;
+}
+
+table tbody, table thead
+{
+    display: block;
+}
+table tbody 
+{
+   overflow: auto;
+   height: 700px;
+   margin-top: 150px;
+}
+
+th, td {
+    width: 177px;
+}
+
+.time{
+    width: 74px;
+}
+#arrowCell, #cellFiller {
+    width: 10.5%;
+}
+
+
+
+
+#CalHead{
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: white;
+ 
+}
+
+.header {
+  padding: 10px 16px;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+input {
+    padding-left: 30px;
+}
+
+th.date-row {
+    font-size: 70px;
+}
+
+.circle {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 100%;
+  display: block;
+  font-size: 70px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  background: black;
+}
+
+ #plus{
+    padding: 10px;
+    padding-right: 50px;
+    font-size: 60px;
+    color: #39A1F3;
+ }
+
+#arrow1{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 50px;
+    color: #39A1F3;
+ }
+
+ #arrow2{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 50px;
+    color: #39A1F3;
+ }
+
+#addevent-link {
+    align-content: right;
+    text-align: right;
+}
+
+#time-7,#time-8,#time-9,#time-10,#time-11,#time-12,#time-1,#time-2,#time-3,#time-4,#time-5,#time-6,#time-7P, #time-8P,#time-9P,#time-10P {
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.time {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    text-align: top;
+    text-align: left;
+    padding-left: 10px;
+    height: 57.75px;
+}
+
+#sticky {
+  width:100%;
+  height:130px;
+  padding:2px;
+  background-color: black;
+  color: white;
+  font-size: 38px;
+  font-family: "Roboto Slab";
+  letter-spacing: 3px;
+  position:fixed;    
+  bottom:0;          
+  left:0;            
+}
+
+
+.stickbar { list-style: none; }
+.stickbar li { float: left; margin-right: 30px; margin-left: 10px; margin-top: 10px;}
+.stickbar span { float: left; width: 32px; height: 32px; margin-right: 10px; margin-top: 10px; }
+
+
+.stickbar .rowing { background-color: #DF3C3C; }
+.stickbar .physicaltherapy { background-color: #7FC97F; }
+.stickbar .spaulding { background-color: #FFF990; }
+.stickbar .meeting { background-color: #868686; }
+.stickbar .sailing { background-color: #39A1F3; }
+.stickbar .community { background-color: #FE843F; }
+.stickbar .family { background-color: #F5A8D4; }
+.stickbar .doctorsappointment { background-color: #A64F13; }
+.stickbar .vacation { background-color: #8E4FE1; }
+
+
+/*
+.table>thead>tr>th{
+    line-height: 0;
+}
+*/
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-top: 1px solid white;
+    padding: 0px;
+
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 0px solid white;
+}

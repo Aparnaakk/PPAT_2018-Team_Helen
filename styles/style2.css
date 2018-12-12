@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body {
+	padding: 25px;
+    font-family: "Roboto Slab";
+}
+
+label {
+	text-align: left;
+    font-family: "Roboto Slab";
+    padding-bottom: -10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 45px;
+    font-style: bold;
+    letter-spacing: 2px;
+}
+
+select {
+	padding: 25px;
+}
+
+input {
+	padding: 10px;
+	border-radius: 8px;
+    display: block;
+    shape-outside: none;
+    box-shadow: none;
+}
+
+input:focus{
+    border-color: #FE843F;
+    border-width: 10px;
+    box-shadow: none;
+}
+
+
+input[type=text] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+input[type=time] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+input[type=date] {
+    background-color: #39A1F3;
+    color: black;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    letter-spacing: 2px;
+}
+
+div {
+	width: 100%;
+}
+
+div.input-field{
+	padding-left: 35px;
+	padding-bottom: 15px;
+}
+
+div#dropdown-row.row{
+}
+
+ul li a { 
+	font-family: "Roboto Slab";
+	font-size: 45px;
+}
+
+#backtoWeekHeader{
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: white;
+    z-index: 900;
+    padding-top: 20px;
+ 
+}
+
+#topdiv {
+    padding-top: 120px;
+}
+
+
+#addevent-link{
+	padding-bottom: 30px;
+    font-weight: bold;
+
+}
+
+#backCal{
+	text-align: left;
+    font-family: "Roboto Slab";
+    padding-left: 30px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #39A1F3;
+}
+
+#backArrow {
+    color: #39A1F3;
+	padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+
+#button {
+	padding-left: 40px;
+	padding-top: 30px;
+    border-radius: 5px;
+}
+
+#subButton {
+	background-color: #7FC97F; 
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul{
+    list-style: none;
+}
+
+#dateicons {
+    padding-left: 40px;
+}
+#timeicons {
+    padding-left: 115px;
+    height: 100px;
+}
+#durationicons {
+    padding-left: 80px;
+}
+
+.fa-caret-up:before {
+    align-content: top;
+    height:20px;
+}
+i#timeUP.fas.fa-caret-up:before {
+    height: 40px;
+}
+li.iconstack{
+    height:40px;
+    margin-bottom: 0px;
+    text-align: top;
+    vertical-align: top
+}
+
+#Type, #Duration, #Month, #Day, #min, #hr {
+	font-family: Roboto;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding-left: 40px;
+}
+
+div#Type.wrapper-dropdown-3{
+	padding-left: 30px;
+}
+
+div.col-md-6 {
+    padding-left: 0px;
+}
+
+input[type=number] {
+    background-color: #39A1F3; 
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+
+input[type=time] {
+    height: 100px;
+}
+
+
+
+input[type=date] {
+    height: 100px;
+}
+
+
+
+#CategoryLabel{
+    font-family: "Roboto Slab";
+}
+
+#durUP, #durDOWN, #timeUP, #timeDOWN, #dateUP, #dateDOWN{
+    font-size: 50px;
+    text-align:top;
+}
+
+
+
+.modal-confirm {        
+        color: #636363;
+        width: 325px;
+        z-index: 999;
+        float: center;
+        position: absolute !important;
+        top: 70%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    #Xicon {
+        font-size: 50px;
+    }
+    #OKbutt.btn{
+        font-size: 40px
+    }
+    .modal-confirm .modal-content {
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+    }
+    .modal-confirm .modal-header {
+        border-bottom: none;   
+        position: relative;
+    }
+    .modal-confirm h4 {
+        text-align: center;
+        font-size: 50px;
+        margin: 30px 0 -15px;
+        margin-bottom: 20px;
+    }
+    .modal-confirm .form-control, .modal-confirm .btn {
+        min-height: 40px;
+        border-radius: 3px; 
+    }
+    .modal-confirm .close {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }   
+    .modal-confirm .modal-footer {
+        border: none;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 50px;
+    }   
+    .modal-confirm .icon-box {
+        color: #fff;        
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -70px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        z-index: 9;
+        background: #7FC97F;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm .icon-box2 {
+        color: #fff;        
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -70px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        z-index: 9;
+        background: #DF3C3C;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm .icon-box i {
+        font-size: 58px;
+        position: relative;
+        top: 3px;
+    }
+    .modal-confirm.modal-dialog {
+        margin-top: 80px;
+    }
+    .modal-confirm .btn {
+        color: #fff;
+        border-radius: 4px;
+        background: #DF3C3C;
+        text-decoration: none;
+        transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+    .modal-confirm .btn:hover, .modal-confirm .btn:focus {
+        background: #da2c12;
+        outline: none;
+    }
+
+div.hidden{
+   display: none
+}
+
+
+
+span.rowing { background-color: #DF3C3C; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.physicaltherapy { background-color: #7FC97F; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.meeting { background-color: #868686; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.sailing { background-color: #39A1F3; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.community { background-color: #FE843F; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.doctorsappointment { background-color: #A64F13; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.family { background-color: #F5A8D4; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.vacation { background-color: #DF3C3C; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.rowing { background-color: #8E4FE1; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.spaulding { background-color: #FFF990; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }
+span.other { background-color: black; border: 4px solid white; float: left; width: 45px; height: 45px; margin-right: 20px; margin-top: 10px; }

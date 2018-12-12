@@ -1,0 +1,15 @@
+
+
+#top {
+	padding-top: 90px;
+}
+
+.clicked {
+	text-align: left;
+    font-family: "Roboto Slab";
+    padding-left: 30px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #39A1F3;
+    display: inline-block;
+}
