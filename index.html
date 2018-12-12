@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Files -->
+     
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style3.css"/>
+
+    <title>Team Helen!</title>
+  </head>
+
+
+  <body>
+    <div class="header" id="CalHead">
+    <div class="CalHead" >
+      <div id="topRow" class="row">
+      <div class="col-sm-1"><img src="onSchedule-01.png" width="100px"></img></div>
+      <div class="col-md-8"><h1 id="monthHeader"></h1></div>
+      <div class="col-md-3" id="addevent-link"><a href="addevent.html"> <i id="plus" class="fas fa-plus"></i></a></div>
+      
+    </div>
+    </div>
+  </div>
+        <table class="table table-bordered" style="display:block;">
+          <thead >
+            <tr>
+             <th id="cellFiller" class="day-row" style="width: 107px"></th>
+              <th class="day-row" style="width: 13%">S</th>
+              <th class="day-row" style="width: 13%">M</th>
+              <th class="day-row" style="width: 13%">T</th>
+              <th class="day-row" style="width: 13%">W</th>
+              <th class="day-row" style="width: 13%">Th</th>
+              <th class="day-row" style="width: 13%">F</th>
+              <th class="day-row" style="width: 13%">S</th>
+              <th class="day-row" style="width: 4.5%"></th>
+            </tr>
+            <tr>
+              <th id="arrowCell"class="date-row" style="width: 107px""><button id="arrow1" class="fas fa-arrow-left"></button></th>
+              <th id="day1" class="date-row" style="width: 13%" "line-height: 0">25</th>
+              <th id="day2" class="date-row" style="width: 13%">26</th>
+              <th id="day3" class="date-row" style="width: 13%">27</th>
+              <th id="day4" class="date-row" style="width: 13%">28</th>
+              <th id="day5" class="date-row" style="width: 13%"><div class="circle">29</div></th>
+              <th id="day6" class="date-row" style="width: 13%">30</th>
+              <th id="day7" class="date-row" style="width: 13%">1</th>
+              <th class="date-row" style="width: 4.5%"><button id="arrow2" class="fas fa-arrow-right"></button></th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="row-7">
+              <td id="time-7" class="time" style="width: 5%">7</td>
+              <td id="7-SUN" style="width: 13%"></td>
+              <td id="7-M" style="width: 13%"></td>
+              <td id="7-T" style="width: 13%"></td>
+              <td id="7-T" style="width: 13%"></td>
+              <td id="7-W" style="width: 13%"></td>
+              <td id="7-Th" style="width: 13%"></td>
+              <td id="7-F" style="width: 13%"></td>
+              <td id="7-SAT" style="width: 13%"></td>
+            </tr>
+           <tr id="row-75">
+              <td id="time-75" class="time" style="width: 5%"></td>
+              <td id="75-SUN" style="width: 13%"></td>
+              <td id="75-M" style="width: 13%"></td>
+              <td id="75-T" style="width: 13%"></td>
+              <td id="75-W" style="width: 13%"></td>
+              <td id="75-Th" style="width: 13%"></td>
+              <td id="75-F" style="width: 13%"></td>
+              <td id="75-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-8" class="time" style="width: 5%">8</td>
+              <td id="8-SUN" style="width: 13%"></td>
+              <td id="8-M" style="width: 13%"></td>
+              <td id="8-T" style="width: 13%"></td>
+              <td id="8-W" style="width: 13%"></td>
+              <td id="8-Th" style="width: 13%"></td>
+              <td id="8-F" style="width: 13%"></td>
+              <td id="8-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-85">
+              <td id="time-85" class="time" style="width: 5%"></td>
+              <td id="85-SUN" style="width: 13%"></td>
+              <td id="85-M" style="width: 13%"></td>
+              <td id="85-T" style="width: 13%"></td>
+              <td id="85-W" style="width: 13%"></td>
+              <td id="85-Th" style="width: 13%"></td>
+              <td id="85-F" style="width: 13%"></td>
+              <td id="85-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-9" class="time" style="width: 5%">9</td>
+              <td id="9-SUN" style="width: 13%"></td>
+              <td id="9-M" style="width: 13%"></td>
+              <td id="9-T" style="width: 13%"></td>
+              <td id="9-W" style="width: 13%"></td>
+              <td id="9-Th" style="width: 13%"></td>
+              <td id="9-F" style="width: 13%"></td>
+              <td id="9-SAT"style="width: 13%"></td>
+            </tr>
+            <tr id="row-95">
+              <td id="time-95" class="time" style="width: 5%"></td>
+              <td id="95-SUN" style="width: 13%"></td>
+              <td id="95-M" style="width: 13%"></td>
+              <td id="95-T" style="width: 13%"></td>
+              <td id="95-W" style="width: 13%"></td>
+              <td id="95-Th" style="width: 13%"></td>
+              <td id="95-F" style="width: 13%"></td>
+              <td id="95-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-10" class="time" style="width: 5%">10</td>
+              <td id="10-SUN" style="width: 13%"></td>
+              <td id="10-M" style="width: 13%"></td>
+              <td id="10-T" style="width: 13%"></td>
+              <td id="10-W" style="width: 13%"></td>
+              <td id="10-Th" style="width: 13%"></td>
+              <td id="10-F" style="width: 13%"></td>
+              <td id="10-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-105">
+              <td id="time-105" class="time" style="width: 5%"></td>
+              <td id="105-SUN" style="width: 13%"></td>
+              <td id="105-M" style="width: 13%"></td>
+              <td id="105-T" style="width: 13%"></td>
+              <td id="105-W" style="width: 13%"></td>
+              <td id="105-Th" style="width: 13%"></td>
+              <td id="105-F" style="width: 13%"></td>
+              <td id="105-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-11" class="time" style="width: 5%">11</td>
+              <td id="11-SUN" style="width: 13%"></td>
+              <td id="11-M" style="width: 13%"></td>
+              <td id="11-T" style="width: 13%"></td>
+              <td id="11-W" style="width: 13%"></td>
+              <td id="11-Th" style="width: 13%"></td>
+              <td id="11-F" style="width: 13%"></td>
+              <td id="11-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-115">
+              <td id="time-115" class="time" style="width: 5%"></td>
+              <td id="115-SUN" style="width: 13%"></td>
+              <td id="115-M" style="width: 13%"></td>
+              <td id="115-T" style="width: 13%"></td>
+              <td id="115-W" style="width: 13%"></td>
+              <td id="115-Th" style="width: 13%"></td>
+              <td id="115-F" style="width: 13%"></td>
+              <td id="115-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-12" class="time" style="width: 5%">12</td>
+              <td id="12-SUN" style="width: 13%"></td>
+              <td id="12-M" style="width: 13%"></td>
+              <td id="12-T" style="width: 13%"></td>
+              <td id="12-W" style="width: 13%"></td>
+              <td id="12-Th" style="width: 13%"></td>
+              <td id="12-F" style="width: 13%"></td>
+              <td id="12-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-125">
+              <td id="time-125" class="time" style="width: 5%"></td>
+              <td id="125-SUN" style="width: 13%"></td>
+              <td id="125-M" style="width: 13%"></td>
+              <td id="125-T" style="width: 13%"></td>
+              <td id="125-W" style="width: 13%"></td>
+              <td id="125-Th" style="width: 13%"></td>
+              <td id="125-F" style="width: 13%"></td>
+              <td id="125-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-1" class="time" style="width: 5%">1</td>
+              <td id="13-SUN" style="width: 13%"></td>
+              <td id="13-M" style="width: 13%"></td>
+              <td id="13-T" style="width: 13%"></td>
+              <td id="13-W" style="width: 13%"></td>
+              <td id="13-Th" style="width: 13%"></td>
+              <td id="13-F" style="width: 13%"></td>
+              <td id="13-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-135">
+              <td id="time-135" class="time" style="width: 5%"></td>
+              <td id="135-SUN" style="width: 13%"></td>
+              <td id="135-M" style="width: 13%"></td>
+              <td id="135-T" style="width: 13%"></td>
+              <td id="135-W" style="width: 13%"></td>
+              <td id="135-Th" style="width: 13%"></td>
+              <td id="135-F" style="width: 13%"></td>
+              <td id="135-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-2" class="time" style="width: 5%">2</td>
+              <td id="14-SUN" style="width: 13%"></td>
+              <td id="14-M" style="width: 13%"></td>
+              <td id="14-T" style="width: 13%"></td>
+              <td id="14-W" style="width: 13%"></td>
+              <td id="14-Th" style="width: 13%"></td>
+              <td id="14-F" style="width: 13%"></td>
+              <td id="14-SAT"></td>
+            </tr>
+            <tr id="row-145">
+              <td id="time-145" class="time" style="width: 5%"></td>
+              <td id="145-SUN" style="width: 13%"></td>
+              <td id="145-M" style="width: 13%"></td>
+              <td id="145-T" style="width: 13%"></td>
+              <td id="145-W" style="width: 13%"></td>
+              <td id="145-Th" style="width: 13%"></td>
+              <td id="145-F" style="width: 13%"></td>
+              <td id="145-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-3" class="time" style="width: 5%">3</td>
+              <td id="15-SUN" style="width: 13%"></td>
+              <td id="15-M" style="width: 13%"></td>
+              <td id="15-T" style="width: 13%"></td>
+              <td id="15-W" style="width: 13%"></td>
+              <td id="15-Th" style="width: 13%"></td>
+              <td id="15-F" style="width: 13%"></td>
+              <td id="15-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-155">
+              <td id="time-155" class="time" style="width: 5%"></td>
+              <td id="155-SUN" style="width: 13%"></td>
+              <td id="155-M" style="width: 13%"></td>
+              <td id="155-T" style="width: 13%"></td>
+              <td id="155-W" style="width: 13%"></td>
+              <td id="155-Th" style="width: 13%"></td>
+              <td id="155-F" style="width: 13%"></td>
+              <td id="155-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-4" class="time" style="width: 5%">4</td>
+              <td id="16-SUN" style="width: 13%"></td>
+              <td id="16-M" style="width: 13%"></td>
+              <td id="16-T" style="width: 13%"></td>
+              <td id="16-W" style="width: 13%"></td>
+              <td id="16-Th" style="width: 13%"></td>
+              <td id="16-F" style="width: 13%"></td>
+              <td id="16-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-165">
+              <td id="time-165" class="time" style="width: 5%"></td>
+              <td id="165-SUN" style="width: 13%"></td>
+              <td id="165-M" style="width: 13%"></td>
+              <td id="165-T" style="width: 13%"></td>
+              <td id="165-W" style="width: 13%"></td>
+              <td id="165-Th" style="width: 13%"></td>
+              <td id="165-F" style="width: 13%"></td>
+              <td id="165-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-5" class="time" style="width: 5%">5</td>
+              <td id="17-SUN" style="width: 13%"></td>
+              <td id="17-M" style="width: 13%"></td>
+              <td id="17-T" style="width: 13%"></td>
+              <td id="17-W" style="width: 13%"></td>
+              <td id="17-Th" style="width: 13%"></td>
+              <td id="17-F" style="width: 13%"></td>
+              <td id="17-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-175">
+              <td id="time-175" class="time" style="width: 5%"></td>
+              <td id="175-SUN" style="width: 13%"></td>
+              <td id="175-M" style="width: 13%"></td>
+              <td id="175-T" style="width: 13%"></td>
+              <td id="175-W" style="width: 13%"></td>
+              <td id="175-Th" style="width: 13%"></td>
+              <td id="175-F" style="width: 13%"></td>
+              <td id="175-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+              <td id="time-6" class="time" style="width: 5%">6</td>
+              <td id="18-SUN" style="width: 13%"></td>
+              <td id="18-M" style="width: 13%"></td>
+              <td id="18-T" style="width: 13%"></td>
+              <td id="18-W" style="width: 13%"></td>
+              <td id="18-Th" style="width: 13%"></td>
+              <td id="18-F" style="width: 13%"></td>
+              <td id="18-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-185">
+              <td id="time-185" class="time" style="width: 5%"></td>
+              <td id="185-SUN" style="width: 13%"></td>
+              <td id="185-M" style="width: 13%"></td>
+              <td id="185-T" style="width: 13%"></td>
+              <td id="185-W" style="width: 13%"></td>
+              <td id="185-Th" style="width: 13%"></td>
+              <td id="185-F" style="width: 13%"></td>
+              <td id="185-SAT" style="width: 13%"></td>
+            </tr>
+            <tr>
+             <td  id="time-7P" class="time" style="width: 5%">7</td>
+              <td id="19-SUN" style="width: 13%"></td>
+              <td id="19-M" style="width: 13%"></td>
+              <td id="19-T" style="width: 13%"></td>
+              <td id="19-W" style="width: 13%"></td>
+              <td id="19-Th" style="width: 13%"></td>
+              <td id="19-F" style="width: 13%"></td>
+              <td id="19-SAT" style="width: 13%"></td>
+            </tr>
+            <tr id="row-195">
+              <td id="time-195" class="time" style="width: 5%"></td>
+              <td id="195-SUN" style="width: 13%"></td>
+              <td id="195-M" style="width: 13%"></td>
+              <td id="195-T" style="width: 13%"></td>
+              <td id="195-W" style="width: 13%"></td>
+              <td id="195-Th" style="width: 13%"></td>
+              <td id="195-F" style="width: 13%"></td>
+              <td id="195-SAT" style="width: 13%"></td>
+            </tr>
+              <td id="time-8P" class="time" style="width: 5%">8</td>
+              <td id="20-SUN" style="width: 13%"></td>
+              <td id="20-M" style="width: 13%"></td>
+              <td id="20-T" style="width: 13%"></td>
+              <td id="20-W" style="width: 13%"></td>
+              <td id="20-Th" style="width: 13%"></td>
+              <td id="20-F" style="width: 13%"></td>
+              <td id="20-SAT" style="width: 13%"></td>
+            </tr>
+            </tr>
+              <td id="time-205P" class="time" style="width: 5%"></td>
+              <td id="205-SUN" style="width: 13%"></td>
+              <td id="205-M" style="width: 13%"></td>
+              <td id="205-T" style="width: 13%"></td>
+              <td id="205-W" style="width: 13%"></td>
+              <td id="205-Th" style="width: 13%"></td>
+              <td id="205-F" style="width: 13%"></td>
+              <td id="205-SAT" style="width: 13%"></td>
+            </tr>
+            </tr>
+              <td id="time-9P" class="time" style="width: 5%">9</td>
+              <td id="21-SUN" style="width: 13%"></td>
+              <td id="21-M" style="width: 13%"></td>
+              <td id="21-T" style="width: 13%"></td>
+              <td id="21-W" style="width: 13%"></td>
+              <td id="21-Th" style="width: 13%"></td>
+              <td id="21-F" style="width: 13%"></td>
+              <td id="21-SAT" style="width: 13%"></td>
+            </tr>
+            </tr>
+              <td id="time-215P" class="time" style="width: 5%"></td>
+              <td id="215-SUN" style="width: 13%"></td>
+              <td id="215-M" style="width: 13%"></td>
+              <td id="215-T" style="width: 13%"></td>
+              <td id="215-W" style="width: 13%"></td>
+              <td id="215-Th" style="width: 13%"></td>
+              <td id="215-F" style="width: 13%"></td>
+              <td id="215-SAT" style="width: 13%"></td>
+            </tr>
+            </tr>
+              <td id="time-10P" class="time" style="width: 5%">10</td>
+              <td id="22-SUN" style="width: 13%"></td>
+              <td id="22-M" style="width: 13%"></td>
+              <td id="22-T" style="width: 13%"></td>
+              <td id="22-W" style="width: 13%"></td>
+              <td id="22-Th" style="width: 13%"></td>
+              <td id="22-F" style="width: 13%"></td>
+              <td id="22-SAT" style="width: 13%"></td>
+            </tr>
+            </tr>
+              <td id="time-225P" class="time" style="width: 5%"></td>
+              <td id="225-SUN" style="width: 13%"></td>
+              <td id="225-M" style="width: 13%"></td>
+              <td id="225-T" style="width: 13%"></td>
+              <td id="225-W" style="width: 13%"></td>
+              <td id="225-Th" style="width: 13%"></td>
+              <td id="225-F" style="width: 13%"></td>
+              <td id="225-SAT" style="width: 13%"></td>
+            </tr>
+          </tbody>
+        </table>
+
+  
+  <footer id="sticky">
+    <div class="stickbar"> 
+      <li><span class="rowing"></span> Rowing<br>
+      <span class="physicaltherapy"></span> PT</li>
+      <li><span class="spaulding"></span> Spaulding<br>
+      <span class="meeting"></span> Meeting</li>
+      <li><span class="sailing"></span> Sailing<br>
+      <span class="community"></span> Community</li>
+      <li><span class="family"></span> Family<br>
+      <span class="doctorsappointment"></span> Doctor</li>
+      <li><span class="vacation"></span> Vacation</li>
+    </div>
+   </footer>
+ </div>
+
+    <!-- vendor -->
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/jquery-cookie.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="js/vendor/aws-dynamodb-sdk.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.369.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- custom -->
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognitoAuth.js"></script>
+    <script src="js/createCalendar.js"></script>
+    
+  </body>
+</html>
+
+
+
+
